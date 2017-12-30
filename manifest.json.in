@@ -1,0 +1,14 @@
+{
+    "name": "com.ubuntu.sayubuntu",
+    "description": "How to say Ubuntu",
+    "title": "Say Ubuntu",
+    "hooks": {
+        "ubports": {
+            "apparmor": "com.ubuntu.sayubuntu.apparmor",
+            "desktop":  "com.ubuntu.sayubuntu.desktop"
+        }
+    },
+    "version": "1.0",
+    "maintainer": "Joe <joe@ubports.com>",
+    "framework" : "ubuntu-sdk-15.04.6"
+}
