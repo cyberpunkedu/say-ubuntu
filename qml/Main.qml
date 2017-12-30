@@ -47,7 +47,7 @@ Window {
     MainView {
         id: root
         objectName: 'mainView'
-        applicationName: 'com.ubuntu.sayubuntu'
+        applicationName: 'sayubuntu.joe'
         automaticOrientation: true
         anchorToKeyboard: true
         anchors.fill: parent
