@@ -3,7 +3,7 @@
     "description": "How to say Ubuntu",
     "title": "Say Ubuntu",
     "hooks": {
-        "ubports": {
+        "sayubuntu": {
             "apparmor": "com.ubuntu.sayubuntu.apparmor",
             "desktop":  "com.ubuntu.sayubuntu.desktop"
         }
