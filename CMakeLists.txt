@@ -19,7 +19,7 @@ execute_process(
 
 set(QT_IMPORTS_DIR "lib/${ARCH_TRIPLET}")
 
-set(PROJECT_NAME "com.ubuntu.sayubuntu")
+set(PROJECT_NAME "sayubuntu.joe")
 set(CMAKE_INSTALL_PREFIX /)
 set(DATA_DIR /)
 set(DESKTOP_FILE_NAME ${PROJECT_NAME}.desktop)
@@ -71,8 +71,8 @@ add_subdirectory(po)
 # List of assets you want visible
 set(CLICK_AND_OTHER_SHMUCK_MANIFESTS
     ${CMAKE_CURRENT_SOURCE_DIR}/clickable.json
-    ${CMAKE_CURRENT_SOURCE_DIR}/com.ubuntu.sayubuntu.apparmor
-    ${CMAKE_CURRENT_SOURCE_DIR}/com.ubuntu.sayubuntu.desktop.in
+    ${CMAKE_CURRENT_SOURCE_DIR}/sayubuntu.joe.apparmor
+    ${CMAKE_CURRENT_SOURCE_DIR}/sayubuntu.joe.desktop.in
     ${CMAKE_CURRENT_SOURCE_DIR}/manifest.json.in
     ${CMAKE_CURRENT_SOURCE_DIR}/README.md
     ${CMAKE_CURRENT_SOURCE_DIR}/LICENSE

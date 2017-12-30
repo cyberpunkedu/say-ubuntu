@@ -1,11 +1,11 @@
 {
-    "name": "com.ubuntu.sayubuntu",
+    "name": "sayubuntu.joe",
     "description": "How to say Ubuntu",
     "title": "Say Ubuntu",
     "hooks": {
         "sayubuntu": {
-            "apparmor": "com.ubuntu.sayubuntu.apparmor",
-            "desktop":  "com.ubuntu.sayubuntu.desktop"
+            "apparmor": "sayubuntu.joe.apparmor",
+            "desktop":  "sayubuntu.joe.desktop"
         }
     },
     "version": "1.0",
