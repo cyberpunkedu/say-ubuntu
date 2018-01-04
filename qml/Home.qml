@@ -50,7 +50,7 @@ Page {
               property string speaker: ref.lister[refNum]
 	      property int refNum: quote.quoteNum
 	      id: sayLike
-              text: i18n.tr("Press to say \"ubuntu\" like %1").arg(speaker)
+              text: i18n.tr("Press to say 'ubuntu' like %1").arg(speaker)
               textSize: Label.Large
               }
 

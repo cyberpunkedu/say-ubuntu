@@ -11,6 +11,12 @@ Set up [clickable](https://github.com/bhdouglass/clickable) and run `clickable` 
 
 This app is heavily based on the [UBports app](https://github.com/ubports/ubports-app) by Jan Jakob Sprinz (@NeoTheThird) <jan@ubports.com>
 
+## To Do
+
+* Check on translatable strings with double quotations.
+* Check on lost audio issue when pressing too quickly
+* Add more "Ubuntu" speakers
+
 ## Legal
 
 This program is free software: you can redistribute it and/or modify

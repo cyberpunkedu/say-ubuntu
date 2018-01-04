@@ -62,7 +62,7 @@ Page {
             }
 
 	    DefaultLabel {
-		text: i18n.tr("Now you know how to say \"ubuntu\"")
+		text: i18n.tr("Now you know how to say 'ubuntu'")
 	    }
 
         }
