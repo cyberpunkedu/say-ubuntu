@@ -26,11 +26,12 @@ import QtQuick 2.4
 import Ubuntu.Components 1.3
 import "modules"
 import QtMultimedia 5.0
+import "../assets/soundpick.js" as Logic
 
 
 Page {
     id: homePage
-    title: i18n.tr("Say Ubuntu like %1!").arg("Desmond Tutu")
+    title: i18n.tr("Say Ubuntu")
     header: DefaultHeader {}
 
     ScrollView {
@@ -45,10 +46,13 @@ Page {
             width: scroll.width
             spacing: units.gu(3)
 
-   	    DefaultLabel {
-                text: ""
-                textSize: Label.Large
-            }
+	 DefaultLabel {
+              property string speaker: ref.lister[refNum]
+	      property int refNum: quote.quoteNum
+	      id: sayLike
+              text: i18n.tr("Press to say \"ubuntu\" like %1").arg(speaker)
+              textSize: Label.Large
+              }
 
             Image {
 		id: cof
@@ -57,12 +61,18 @@ Page {
                 source: Qt.resolvedUrl("../assets/ubuntu.svg")
 
 		MouseArea {
+		    property int longness: theList.listy.length - 1
+                    property int quoteNum: Math.floor(Math.random() * longness)
+		    property string quote: theList.listy[quoteNum]
+
             	    id: mousey
 	 	    anchors.fill: parent
 		    hoverEnabled: true
 		    onPressed: {
                         cof.opacity = 0.5
-                        playSound.play()
+                        Logic.talker(sayLike.speaker).play()
+			quoteNum = Math.floor(Math.random() * longness)
+			quote.myQuote = theList.listy[quoteNum]
                         }
                     onReleased: {
                         cof.opacity = 1.0
@@ -71,20 +81,55 @@ Page {
 
                 }
 
-            DefaultLabel {
-                text: i18n.tr("Press to say 'ubuntu' like %1").arg("Desmond Tutu")
-                textSize: Label.XLarge
-                }
-
-            DefaultLabel {
-                text: ""
-                textSize: Label.Large
-                }
-
+         
 	    Audio {
-                    id: playSound
+                    id: desBuntu
                     source: Qt.resolvedUrl("../assets/ubuntu.ogg")
+			
                 }
+  
+	    Audio {
+                    id: markBuntu
+                    source: Qt.resolvedUrl("../assets/ubuntu2.ogg")
+			
+                }
+
+
+      	    DefaultLabel {
+                    property int longness: theList.listy.length - 1
+                    property int quoteNum: mousey.quoteNum
+                    property string myQuote: theList.listy[quoteNum]
+
+                    id: quote
+                    font.italic: true
+                    wrapMode: Text.WordWrap
+                    text: myQuote
+		    textSize: Label.Large
+	        }
+	    
+	    Item {
+            	    id: theList
+		    property var listy: [
+			    "\"A person is a person through other persons.\" --Desmond Tutu",
+                            "\"I need you to be you, so that I can be me.\" --Desmond Tutu",
+                            "\"When you dehumanize another [...] you are, yourself, dehumanized\" --Desmond Tutu",
+                            "\"My humanity is caught up, is inextricably bound up, in yours.\" --Desmond Tutu",
+			    "\"The name 'ubuntu'... it's not a technology name; it's a name about people.\" --Mark Shuttleworth",
+			    "\"Ubuntu is not just software.\""
+                          ]
+
+               }
+	   
+	    Item {
+		  id: ref
+		  property var lister: [
+			    "Desmond Tutu",
+			    "Desmond Tutu",
+			    "Desmond Tutu",
+			    "Desmond Tutu",
+			    "Mark Shuttleworth"
+			]
+	      }
           
         }
     }

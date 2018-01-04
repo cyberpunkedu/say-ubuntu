@@ -45,7 +45,7 @@ PageHeader {
         }, Action {
             iconName: "webbrowser-app-symbolic"
 	    visible: mainStack.depth === 1
-            text: "Report Bugs"
+            text: i18n.tr("Report Bugs")
             onTriggered: Qt.openUrlExternally("https://github.com/userj/say-ubuntu")
         }
         ]

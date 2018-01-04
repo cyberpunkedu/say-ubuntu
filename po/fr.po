@@ -47,6 +47,10 @@ msgstr "Maintenant, vous savez comment dire « ubuntu »"
 msgid "About Ubuntu"
 msgstr "À propos d'Ubuntu"
 
+#: ../qml/modules/DefaultHeader.qml:37
+msgid "Report Bugs"
+msgstr "Signaler les Bugs"
+
 #: ../qml/AboutUbuntu.qml:60
 msgid "ubuntu |oǒ'boǒntoō|"
 msgstr "ubuntu |oǒ'boǒntoō|"
