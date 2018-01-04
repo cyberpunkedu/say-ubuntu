@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#: ../qml/Home.qml:49 ../qml/Home.qml:80
 #, fuzzy
 msgid ""
 msgstr ""

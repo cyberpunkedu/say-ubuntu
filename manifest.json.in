@@ -8,7 +8,7 @@
             "desktop":  "sayubuntu.joe.desktop"
         }
     },
-    "version": "1.0",
+    "version": "1.0.1",
     "maintainer": "Joe <joe@ubports.com>",
     "framework" : "ubuntu-sdk-15.04.6"
 }

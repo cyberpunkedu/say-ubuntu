@@ -46,7 +46,7 @@ Page {
             spacing: units.gu(3)
 
    	    DefaultLabel {
-                text: i18n.tr("")
+                text: ""
                 textSize: Label.Large
             }
 
@@ -77,7 +77,7 @@ Page {
                 }
 
             DefaultLabel {
-                text: i18n.tr("")
+                text: ""
                 textSize: Label.Large
                 }
 
