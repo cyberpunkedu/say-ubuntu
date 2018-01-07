@@ -49,7 +49,7 @@ msgstr "À propos d'Ubuntu"
 
 #: ../qml/modules/DefaultHeader.qml:37
 msgid "Report Bugs"
-msgstr "Signaler les Bugs"
+msgstr "Signaler un problème"
 
 #: ../qml/AboutUbuntu.qml:60
 msgid "ubuntu |oǒ'boǒntoō|"
