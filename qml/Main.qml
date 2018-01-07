@@ -37,7 +37,7 @@ Window {
     maximumWidth: Screen.width
     maximumHeight: Screen.height
 
-    property string version: "1.1"
+    property string version: "1.2"
 
     Component.onCompleted: {
         console.log("Say Ubuntu started\n")
