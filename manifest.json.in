@@ -10,5 +10,5 @@
     },
     "version": "1.2",
     "maintainer": "Joe <joe@ubports.com>",
-    "framework" : "ubuntu-sdk-15.04.6"
+    "framework" : "ubuntu-sdk-16.04"
 }

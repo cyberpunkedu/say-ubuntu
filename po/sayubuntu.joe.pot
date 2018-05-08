@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sayubuntu.joe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-07 16:33+0000\n"
+"POT-Creation-Date: 2018-02-26 00:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,25 +17,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../qml/Home.qml:34 ../qml/AboutApp.qml:31 ../qml/AboutUbuntu.qml:31
-#: ../qml/Main.qml:32 sayubuntu.joe.desktop.in.h:1
+#: ../qml/AboutUbuntu.qml:31 ../qml/Main.qml:32 ../qml/Home.qml:34
+#: ../qml/AboutApp.qml:31 sayubuntu.joe.desktop.in.h:1
 msgid "Say Ubuntu"
-msgstr ""
-
-#: ../qml/Home.qml:53
-msgid "Press to say 'ubuntu' like %1"
-msgstr ""
-
-#: ../qml/AboutApp.qml:47
-msgid "About Say Ubuntu"
-msgstr ""
-
-#: ../qml/AboutApp.qml:61
-msgid "Version: "
-msgstr ""
-
-#: ../qml/AboutApp.qml:65
-msgid "Now you know how to say 'ubuntu'"
 msgstr ""
 
 #. TRANSLATORS: Description of the menu item
@@ -61,6 +45,22 @@ msgid ""
 "proper self-assurance that comes from knowing that he or she belongs in a "
 "greater whole and is diminished when others are humiliated or diminished, "
 "when others are tortured or oppressed.' --Archbishop Desmond Tutu <br />"
+msgstr ""
+
+#: ../qml/Home.qml:53
+msgid "Press to say 'ubuntu' like %1"
+msgstr ""
+
+#: ../qml/AboutApp.qml:47
+msgid "About Say Ubuntu"
+msgstr ""
+
+#: ../qml/AboutApp.qml:61
+msgid "Version: "
+msgstr ""
+
+#: ../qml/AboutApp.qml:65
+msgid "Now you know how to say 'ubuntu'"
 msgstr ""
 
 #. TRANSLATORS: Description of the menu item
