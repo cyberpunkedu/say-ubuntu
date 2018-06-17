@@ -8,36 +8,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sayubuntu.joe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-07 16:33+0000\n"
-"PO-Revision-Date: 2018-02-24 21:17+0100\n"
+"POT-Creation-Date: 2018-02-26 00:34+0000\n"
+"PO-Revision-Date: 2018-06-16 14:50+0000\n"
 "Last-Translator: advocatux <advocatux@airpost.net>\n"
 "Language-Team: UBports Spanish Team\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../qml/Home.qml:34 ../qml/AboutApp.qml:31 ../qml/AboutUbuntu.qml:31
-#: ../qml/Main.qml:32 sayubuntu.joe.desktop.in.h:1
+#: ../qml/AboutUbuntu.qml:31 ../qml/Main.qml:32 ../qml/Home.qml:34
+#: ../qml/AboutApp.qml:31 sayubuntu.joe.desktop.in.h:1
 msgid "Say Ubuntu"
 msgstr "Di Ubuntu"
-
-#: ../qml/Home.qml:53
-msgid "Press to say 'ubuntu' like %1"
-msgstr "Presione para decir 'ubuntu' como %1"
-
-#: ../qml/AboutApp.qml:47
-msgid "About Say Ubuntu"
-msgstr "Acerca de Di Ubuntu"
-
-#: ../qml/AboutApp.qml:61
-msgid "Version: "
-msgstr "Versión: "
-
-#: ../qml/AboutApp.qml:65
-msgid "Now you know how to say 'ubuntu'"
-msgstr "Ahora ya sabe como decir 'ubuntu'"
 
 #. TRANSLATORS: Description of the menu item
 #: ../qml/AboutUbuntu.qml:47 ../qml/modules/DefaultHeader.qml:37
@@ -54,8 +37,8 @@ msgid ""
 "means ‘I am what I am because of who we all are’. The Ubuntu operating "
 "system brings the spirit of Ubuntu to the world of computers. (ubuntu.com)"
 msgstr ""
-"Ubuntu es una antigua palabra africana que significa ‘humanidad para otros’. También "
-"significa ‘soy lo que soy por lo que todos somos’. El sistema operativo Ubuntu "
+"Ubuntu es una antigua palabra africana que significa «humanidad para otros». También "
+"significa «soy lo que soy por lo que todos somos». El sistema operativo Ubuntu "
 "trae el espíritu de Ubuntu al mundo de los ordenadores. (ubuntu.com)"
 
 #: ../qml/AboutUbuntu.qml:69
@@ -66,11 +49,27 @@ msgid ""
 "greater whole and is diminished when others are humiliated or diminished, "
 "when others are tortured or oppressed.' --Archbishop Desmond Tutu <br />"
 msgstr ""
-"Una persona con ubuntu está abierta y disponible para los demás, es afirmación de "
+"«Una persona con ubuntu está abierta y disponible para los demás, es afirmación de "
 "los demás, no se siente amenazada porque otros sean capaces y buenos, porque el o ella "
 "tiene la seguridad propia que viene de saber que el o ella pertenece a un todo mayor "
 "y se ve disminuido cuando otros son humillados o disminuidos, cuando otros son "
-"torturados u oprimidos.' --Arzobispo Desmond Tutu <br />"
+"torturados u oprimidos.» --Arzobispo Desmond Tutu <br />"
+
+#: ../qml/Home.qml:53
+msgid "Press to say 'ubuntu' like %1"
+msgstr "Pulse para decir «ubuntu» como %1"
+
+#: ../qml/AboutApp.qml:47
+msgid "About Say Ubuntu"
+msgstr "Acerca de Di Ubuntu"
+
+#: ../qml/AboutApp.qml:61
+msgid "Version: "
+msgstr "Versión: "
+
+#: ../qml/AboutApp.qml:65
+msgid "Now you know how to say 'ubuntu'"
+msgstr "Ahora ya sabe como decir «ubuntu»"
 
 #. TRANSLATORS: Description of the menu item
 #: ../qml/modules/DefaultHeader.qml:43
@@ -79,4 +78,4 @@ msgstr "Acerca de esta aplicación"
 
 #: ../qml/modules/DefaultHeader.qml:48
 msgid "Report Bugs"
-msgstr "Informar de errores"
+msgstr "Informar de errores" 
